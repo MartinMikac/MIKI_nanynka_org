@@ -1,0 +1,26 @@
+2017-09-09	0.4.2
+
+core
+- added a new golem fdb2graph
+	- L2 topology discovery solely based on SNMP MIB FdbTable
+	- written in C
+- SNMP - small fixes and improvements (read more from Cisco, MikroTik)
+
+web
+- internationalization using gettext()
+- localization to Czech
+- added zebra, hover and gradient coloring of older rows to tables
+- better search box
+- show FDB tables with neighbours, IP addreses and DNS names
+
+
+
+2016-09-01	0.4.1
+
+SNMP
+- independent on DNS
+- IPv6 support
+- more variables and counters from ifTable (ifUcastPkts, ...)
+- ifXTable support (HC counters, ...)
+- enterprises MIBs parsing and graphs
+	- APC, Cisco, MikroTik, Telindus, 3Com
